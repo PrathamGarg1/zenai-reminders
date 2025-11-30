@@ -2,6 +2,7 @@
   "name": "zenai-final",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@upstash/redis": "^1.35.7",
+    "nanoid": "^5.1.6",
     "next": "16.0.5",
     "react": "19.2.0",
     "react-dom": "19.2.0"
